@@ -3,7 +3,7 @@ const router = express.Router()
 //Post Method
 
 const { createStudent, readStudents, updateStudent, deleteStudent }
-= require("../controllers/crud")
+= require("../controllers/crudController")
 
 
 //routes

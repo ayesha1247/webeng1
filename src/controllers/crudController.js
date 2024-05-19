@@ -1,4 +1,4 @@
-const Student = require('../models/students');
+const Student = require('../models/crudSchema');
 
 // Create student
 const createStudent = async (req, res) => {       
